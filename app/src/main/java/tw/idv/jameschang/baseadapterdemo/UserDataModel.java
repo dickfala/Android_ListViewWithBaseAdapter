@@ -5,21 +5,24 @@ package tw.idv.jameschang.baseadapterdemo;
  */
 
 public class UserDataModel {
-    String name;
+    String account;
     int age;
     String sport;
     String sex;
 
-
-    public UserDataModel(String name, int age, String sport, String sex) {
-        this.name = name;
-        this.age = age;
-        this.sport = sport;
-        this.sex = sex;
+    public UserDataModel() {
     }
 
-    public String getName() {
-        return name;
+//    public UserDataModel(String account, int age, String sport, String sex) {
+//        this.account = account;
+//        this.age = age;
+//        this.sport = sport;
+//        this.sex = sex;
+//    }
+
+    public String getAccount() {
+
+        return account;
     }
 
     public int getAge() {
@@ -34,8 +37,8 @@ public class UserDataModel {
         return sex;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setAccount(String account) {
+        this.account = account;
     }
 
     public void setAge(int age) {
